@@ -8,10 +8,10 @@ const Doctor = ({doctor}) => {
         {
             doctor.image ? <img style={{height: '200px'}} alt="Doctor" src={`data:image/png;base64,${doctor.image.img}`}/>
             :
-            <img style={{height: '200px'}} className="img-fluid mb-3" src={`http://localhost:5000/${doctor.img}`} alt=""/>
+            <img style={{height: '200px'}} className="img-fluid mb-3" src={`https://quiet-bayou-58578.herokuapp.com/${doctor.img}`} alt=""/>
         }
             <h4>{doctor.name}</h4>
-            <p> <FontAwesomeIcon style={{ fontColor: '#1cc7c1' }} icon={faEnvelopeSquare}/> {doctor.email}</p>
+            <p> <FontAwesomeIcon style={{ color: '#1cc7c1' }} icon={faEnvelopeSquare}/> {doctor.email}</p>
         </div>
     );
 };
