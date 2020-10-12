@@ -1,0 +1,7 @@
+.btn {
+    background: #19d3ae;
+    background: -moz-linear-gradient(left,  #19d3ae 0%, #0fcfec 100%);
+    background: -webkit-linear-gradient(left,  #19d3ae 0%,#0fcfec 100%);
+    background: linear-gradient(to right,  #19d3ae 0%,#0fcfec 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#19d3ae', endColorstr='#0fcfec',GradientType=1 );
+}
